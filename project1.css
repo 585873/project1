@@ -13,3 +13,6 @@ canvas{
   margin: 0 auto;
   text-align: justify;
 }
+.input{
+  align-items: center;
+}
