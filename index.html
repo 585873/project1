@@ -2,31 +2,33 @@
 <html>
   <head>
     <link rel="stylesheet" href="project1.css">
-    <!-- <h1>Hangman</h1> -->
-    <title>Gill Hangman</title>
+
+     <title>Gill Hangman</title>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
   </head>
 
     <body>
-      <h1>Hangman</h1>
-      <img src="http://imgur.com/sf7vYuG.png">
-      <p>Play the game below!</p>
-      <main>
       <div class="wrapper">
-        <div class="game">
+   <h1>Hangman Game</h1>
 
-       <div class="buttons"></div>
-     </div>
-      </div>
-    </main>
-       <canvas id="stickman"></canvas>
-       <input type="text">
-      <div class="container">
-        <button id="hint">Hint</button>
-        <button id="reset">Play again</button>
-      </div>
+    <p>Click the below alphabets below to guess the correct word</p>
+</div>
+<div class="wrapper">
+    <div id="buttons">
+    </div>
+    <p id="catagoryName"></p>
+    <div id="hold">
+    </div>
+    <p id="mylives"></p>
+    <p id="clue">Clue -</p>
+     <canvas id="stickman"></canvas>
+    <div class="container">
+      <button id="hint">Hint</button>
+      <button id="reset">Play again</button>
+    </div>
+</div>
 
 
       <script type="text/javascript" src="project1.js"></script>
